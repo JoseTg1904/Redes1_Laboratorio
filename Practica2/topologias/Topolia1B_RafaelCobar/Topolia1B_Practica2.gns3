@@ -1,0 +1,351 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "Topolia1B_Practica2",
+    "project_id": "2f300611-8669-4731-91af-3e4d43a4adc4",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "d40e9267-4a44-43ee-85c7-b7026eddf11a",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 70,
+                            "y": 41
+                        },
+                        "node_id": "8c35c01f-6b5c-4cf2-ab18-60b0f8f652c1",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": -20,
+                            "y": -38
+                        },
+                        "node_id": "0faaca8a-4e05-4310-92a4-5c235ab31769",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d52a065c-76ec-46f5-acc9-2b0ebdef6c51",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 78,
+                            "y": 14
+                        },
+                        "node_id": "817166c4-e032-4a4a-93bf-fc8c4b7043d1",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": -19,
+                            "y": 42
+                        },
+                        "node_id": "0faaca8a-4e05-4310-92a4-5c235ab31769",
+                        "port_number": 2
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "63d8a8b1-5b35-474a-b8c2-95dbc775b66a",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "UDP tunnel 1",
+                            "x": -73,
+                            "y": 1
+                        },
+                        "node_id": "14975a10-0309-4ff7-a2a0-67236fcd2f96",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 75,
+                            "y": 16
+                        },
+                        "node_id": "0faaca8a-4e05-4310-92a4-5c235ab31769",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5007,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cliente_Contabilidad1",
+                    "x": -41,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cliente_Contabilidad1",
+                "node_id": "8c35c01f-6b5c-4cf2-ab18-60b0f8f652c1",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": -250,
+                "y": -136,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Topolog\u00eda1B",
+                    "x": 33,
+                    "y": -30
+                },
+                "locked": false,
+                "name": "Topolog\u00eda1B",
+                "node_id": "14975a10-0309-4ff7-a2a0-67236fcd2f96",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Conexi\u00f3n de \u00e1rea local",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VirtualBox Host-Only Network",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "Ethernet",
+                            "name": "Ethernet",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Conexi\u00f3n de \u00e1rea local",
+                            "name": "Conexi\u00f3n de \u00e1rea local",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        },
+                        {
+                            "lport": 30300,
+                            "name": "UDP tunnel 1",
+                            "port_number": 2,
+                            "rhost": "10.8.0.2",
+                            "rport": 20300,
+                            "type": "udp"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": 122,
+                "y": -82,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Switch1",
+                    "x": 6,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Switch1",
+                "node_id": "0faaca8a-4e05-4310-92a4-5c235ab31769",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "dot1q",
+                            "vlan": 1
+                        },
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 30
+                        },
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 20
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "template_id": "1966b864-93e7-32d5-965f-001384eec461",
+                "width": 72,
+                "x": -49,
+                "y": -61,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cliente_Ventas2",
+                    "x": -24,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cliente_Ventas2",
+                "node_id": "817166c4-e032-4a4a-93bf-fc8c4b7043d1",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 2,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "Ubuntu_VM"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "074f6434-9b76-4195-a03c-ee5c65d55141",
+                "width": 65,
+                "x": -249,
+                "y": 13,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.21",
+    "zoom": 100
+}

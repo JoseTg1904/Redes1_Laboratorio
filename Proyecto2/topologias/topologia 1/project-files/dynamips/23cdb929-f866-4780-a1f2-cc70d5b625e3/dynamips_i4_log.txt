@@ -1,0 +1,44 @@
+Nov 02 01:32:22.069 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 02 01:32:22.069 HYPERVISOR: Started on IP = localhost, TCP port = 59647.
+Nov 02 01:32:22.085 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 02 01:32:22.086 HYPERVISOR: exec_cmd: hypervisor working_dir /home/chepe/GNS3/projects/proyecto2/project-files/dynamips 
+Nov 02 01:32:22.086 GENERAL: working_dir=/home/chepe/GNS3/projects/proyecto2/project-files/dynamips
+Nov 02 01:32:22.086 HYPERVISOR: exec_cmd: hypervisor working_dir /home/chepe/GNS3/projects/proyecto2/project-files/dynamips/9a23e866-230f-4346-b2df-f61a15823770 
+Nov 02 01:32:22.086 GENERAL: working_dir=/home/chepe/GNS3/projects/proyecto2/project-files/dynamips/9a23e866-230f-4346-b2df-f61a15823770
+Nov 02 01:32:22.087 HYPERVISOR: exec_cmd: vm create R7 5 c3600 
+Nov 02 01:32:22.087 VM: VM R7 created.
+Nov 02 01:32:22.088 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5004 
+Nov 02 01:32:22.088 HYPERVISOR: exec_cmd: c3600 get_mac_addr R7 
+Nov 02 01:32:22.089 HYPERVISOR: exec_cmd: vm set_ios R7 /home/chepe/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 02 01:32:22.089 HYPERVISOR: exec_cmd: c3600 set_mac_addr R7 cc05.3d4e.0000 
+Nov 02 01:32:22.090 HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+Nov 02 01:32:22.090 HYPERVISOR: exec_cmd: vm set_ram R7 192 
+Nov 02 01:32:22.091 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:32:22.092 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 0 NM-1FE-TX 
+Nov 02 01:32:22.093 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:32:22.093 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-1FE-TX 
+Nov 02 01:32:22.093 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:32:22.094 HYPERVISOR: exec_cmd: vm slot_add_binding R7 2 0 NM-1FE-TX 
+Nov 02 01:32:26.267 HYPERVISOR: exec_cmd: nio create_udp udp-d7001b48-c682-4d29-8793-f5ed77c175c0 10030 127.0.0.1 10031 
+Nov 02 01:32:26.536 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 2 0 udp-d7001b48-c682-4d29-8793-f5ed77c175c0 
+Nov 02 01:32:26.537 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:32:27.108 HYPERVISOR: exec_cmd: nio create_udp udp-24be7582-61a5-41d3-b314-93a5c006c2e1 10046 127.0.0.1 10047 
+Nov 02 01:32:27.112 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 0 udp-24be7582-61a5-41d3-b314-93a5c006c2e1 
+Nov 02 01:32:27.112 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:37:25.792 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Nov 02 01:37:25.794 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/chepe/GNS3/projects/proyecto2/project-files/dynamips/c3640-ik9o3s-mz124-13.image-192.ghost 
+Nov 02 01:37:25.795 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:37:25.820 HYPERVISOR: exec_cmd: vm set_config R7 configs/i5_startup-config.cfg configs/i5_private-config.cfg 
+Nov 02 01:37:25.828 HYPERVISOR: exec_cmd: vm start R7 
+Nov 02 01:37:56.058 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 02 01:53:00.382 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:53:00.384 HYPERVISOR: exec_cmd: vm stop R7 
+Nov 02 01:53:00.518 VM: VM R7 shutdown.
+Nov 02 01:53:00.519 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 02 01:53:01.114 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 02 01:53:01.116 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 02 01:53:01.119 HYPERVISOR: exec_cmd: vm delete R7 
+Nov 02 01:53:01.119 VM: VM R7 destroyed.
+Nov 02 01:53:01.121 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 02 01:53:01.267 HYPERVISOR: Stopped.
+Nov 02 01:53:01.267 GENERAL: reset done.

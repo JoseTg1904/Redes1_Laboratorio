@@ -1,0 +1,161 @@
+Oct 31 12:02:52.023 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 31 12:02:52.024 HYPERVISOR: Started on IP = localhost, TCP port = 55246.
+Oct 31 12:02:52.520 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 31 12:02:52.521 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips 
+Oct 31 12:02:52.521 GENERAL: working_dir=C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips
+Oct 31 12:02:52.522 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\b06878c7-7b9f-4908-a77a-2d66a4fbc400 
+Oct 31 12:02:52.523 GENERAL: working_dir=C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\b06878c7-7b9f-4908-a77a-2d66a4fbc400
+Oct 31 12:02:52.524 HYPERVISOR: exec_cmd: vm create ESW2 3 c3725 
+Oct 31 12:02:52.526 VM: VM ESW2 created.
+Oct 31 12:02:52.527 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5004 
+Oct 31 12:02:52.528 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Oct 31 12:02:52.528 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Oct 31 12:02:52.529 HYPERVISOR: exec_cmd: vm set_exec_area ESW2 64 
+Oct 31 12:02:52.580 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Oscar Armin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Oct 31 12:02:52.581 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW2 c203.36c4.0000 
+Oct 31 12:02:52.582 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Oct 31 12:02:52.582 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:02:52.582 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Oct 31 12:16:06.563 HYPERVISOR: exec_cmd: nio create_udp udp-1430337e-a295-40fc-ad40-fc1e89b428d2 10004 127.0.0.1 10005 
+Oct 31 12:16:06.820 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-1430337e-a295-40fc-ad40-fc1e89b428d2 
+Oct 31 12:16:06.821 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:16:12.638 HYPERVISOR: exec_cmd: nio create_udp udp-7a66cb4e-8565-4c3f-91fb-3ae77f275b61 10010 127.0.0.1 10011 
+Oct 31 12:16:12.641 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 1 udp-7a66cb4e-8565-4c3f-91fb-3ae77f275b61 
+Oct 31 12:16:12.642 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:16:19.815 HYPERVISOR: exec_cmd: nio create_udp udp-37593aca-3b37-4b7c-ac6f-59a8e76fe38d 10016 127.0.0.1 10017 
+Oct 31 12:16:19.819 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 2 udp-37593aca-3b37-4b7c-ac6f-59a8e76fe38d 
+Oct 31 12:16:19.819 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:17:57.533 HYPERVISOR: exec_cmd: nio create_udp udp-afda2be4-1683-4c2a-aac8-0cf8421a1474 10032 127.0.0.1 10033 
+Oct 31 12:17:57.537 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 3 udp-afda2be4-1683-4c2a-aac8-0cf8421a1474 
+Oct 31 12:17:57.537 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:18:01.666 HYPERVISOR: exec_cmd: nio create_udp udp-9d96d1b1-10c8-49b5-9a3b-d484609984ea 10038 127.0.0.1 10039 
+Oct 31 12:18:01.669 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 4 udp-9d96d1b1-10c8-49b5-9a3b-d484609984ea 
+Oct 31 12:18:01.669 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:20:31.252 HYPERVISOR: exec_cmd: nio create_udp udp-4aa763cf-1511-44cc-9e0b-0a71e85eeb39 10048 127.0.0.1 10049 
+Oct 31 12:20:31.255 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 5 udp-4aa763cf-1511-44cc-9e0b-0a71e85eeb39 
+Oct 31 12:20:31.256 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:20:35.820 HYPERVISOR: exec_cmd: nio create_udp udp-709bc4fd-537b-47a6-b8be-d74890184d8a 10054 127.0.0.1 10055 
+Oct 31 12:20:35.823 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 6 udp-709bc4fd-537b-47a6-b8be-d74890184d8a 
+Oct 31 12:20:35.823 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:22:27.780 HYPERVISOR: exec_cmd: nio create_udp udp-2e8f84cf-40cb-4f9a-a610-5a41b5f8de5d 10104 127.0.0.1 10105 
+Oct 31 12:22:27.783 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 7 udp-2e8f84cf-40cb-4f9a-a610-5a41b5f8de5d 
+Oct 31 12:22:27.783 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:22:38.779 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Oscar Armin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Oct 31 12:22:47.001 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Oscar Armin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Oct 31 12:22:52.497 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Oscar Armin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Oct 31 12:22:59.120 HYPERVISOR: exec_cmd: nio create_udp udp-924323d8-a8ee-44bc-a35f-3d6e6eddbdbf 10108 127.0.0.1 10109 
+Oct 31 12:22:59.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 8 udp-924323d8-a8ee-44bc-a35f-3d6e6eddbdbf 
+Oct 31 12:22:59.123 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:44:54.915 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Oct 31 12:44:54.918 VM: VM Ghost created.
+Oct 31 12:44:54.919 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Oscar Armin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Oct 31 12:44:54.920 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Oct 31 12:44:54.920 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 12:44:54.921 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 31 12:44:55.028 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Oct 31 12:44:55.028 HYPERVISOR: exec_cmd: vm start Ghost 
+Oct 31 12:44:56.805 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 31 12:44:56.807 HYPERVISOR: exec_cmd: vm stop Ghost 
+Oct 31 12:44:56.947 VM: VM Ghost shutdown.
+Oct 31 12:44:56.948 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Oct 31 12:44:56.949 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Oct 31 12:44:56.949 VM: VM Ghost destroyed.
+Oct 31 12:44:57.145 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 12:44:57.146 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 12:44:57.146 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:44:57.147 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 12:44:57.148 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 12:45:27.759 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 12:45:27.785 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 12:46:14.444 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:46:14.445 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 12:46:14.812 VM: VM ESW2 shutdown.
+Oct 31 12:46:14.813 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 12:46:27.946 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 12:46:27.948 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 12:46:27.949 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 12:46:28.000 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 12:46:28.001 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 12:46:58.883 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 12:46:58.901 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:07:29.379 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:07:29.446 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:07:59.395 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:07:59.411 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:08:59.410 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:08:59.425 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:09:29.425 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 13:09:29.442 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:24:57.901 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:24:57.919 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:40:28.898 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:40:28.925 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:42:28.949 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 15:42:28.970 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 16:19:59.924 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 16:19:59.925 HYPERVISOR: exec_cmd: vm slot_disable_nio ESW2 1 8 
+Oct 31 16:19:59.949 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW2 1 8 
+Oct 31 16:20:00.083 HYPERVISOR: exec_cmd: nio delete udp-924323d8-a8ee-44bc-a35f-3d6e6eddbdbf 
+Oct 31 16:20:07.525 HYPERVISOR: exec_cmd: nio create_udp udp-269357a7-a478-4ff9-8c05-b6c337bce168 10108 127.0.0.1 10109 
+Oct 31 16:20:07.588 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 8 udp-269357a7-a478-4ff9-8c05-b6c337bce168 
+Oct 31 16:20:07.589 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 16:20:07.590 HYPERVISOR: exec_cmd: vm slot_enable_nio ESW2 1 8 
+Oct 31 16:21:59.831 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 16:21:59.878 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:03:52.920 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:03:52.921 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 18:03:53.241 VM: VM ESW2 shutdown.
+Oct 31 18:03:53.243 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:03:54.418 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 18:03:54.418 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 18:03:54.419 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:03:54.419 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 18:03:54.420 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 18:04:24.985 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:04:25.068 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:05:05.651 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:05:05.652 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 18:05:05.985 VM: VM ESW2 shutdown.
+Oct 31 18:05:05.986 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:05:07.059 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 18:05:07.060 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 18:05:07.060 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:05:07.061 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 18:05:07.062 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 18:05:37.768 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:05:37.792 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:07:28.583 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:07:28.584 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 18:07:28.914 VM: VM ESW2 shutdown.
+Oct 31 18:07:28.916 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:07:29.998 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 18:07:29.999 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 18:07:30.000 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:07:30.001 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 18:07:30.002 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 18:08:00.618 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:08:00.635 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:46:59.975 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:46:59.986 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 18:47:00.411 VM: VM ESW2 shutdown.
+Oct 31 18:47:00.413 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:47:29.813 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Oct 31 18:47:29.815 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Oscar Armin\Documents\USAC\Redes1\Lab\Proyecto 2\topologia2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Oct 31 18:47:29.816 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:47:29.817 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Oct 31 18:47:29.818 HYPERVISOR: exec_cmd: vm start ESW2 
+Oct 31 18:48:00.421 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:48:00.445 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:53:35.049 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:53:35.050 HYPERVISOR: exec_cmd: vm stop ESW2 
+Oct 31 18:53:35.359 VM: VM ESW2 shutdown.
+Oct 31 18:53:35.360 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:53:42.749 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:53:42.750 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:53:43.379 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Oct 31 18:53:43.379 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Oct 31 18:53:43.382 HYPERVISOR: exec_cmd: vm delete ESW2 
+Oct 31 18:53:43.382 VM: VM ESW2 destroyed.
+Oct 31 18:53:43.384 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 31 18:53:43.595 HYPERVISOR: Stopped.
+Oct 31 18:53:43.595 GENERAL: reset done.

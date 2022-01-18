@@ -1,0 +1,44 @@
+Oct 31 20:08:43.905 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 31 20:08:43.907 HYPERVISOR: Started on IP = localhost, TCP port = 57280.
+Oct 31 20:08:43.994 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 31 20:08:43.999 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\RafaelCobar\Desktop\ProyectoSS_2021\Redes\Proyecto2\topoAux\Topologia3\project-files\dynamips 
+Oct 31 20:08:44.014 GENERAL: working_dir=C:\Users\RafaelCobar\Desktop\ProyectoSS_2021\Redes\Proyecto2\topoAux\Topologia3\project-files\dynamips
+Oct 31 20:08:44.014 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\RafaelCobar\Desktop\ProyectoSS_2021\Redes\Proyecto2\topoAux\Topologia3\project-files\dynamips\5ddaa37e-3fb8-44f3-87c5-20405e90fc2f 
+Oct 31 20:08:44.015 GENERAL: working_dir=C:\Users\RafaelCobar\Desktop\ProyectoSS_2021\Redes\Proyecto2\topoAux\Topologia3\project-files\dynamips\5ddaa37e-3fb8-44f3-87c5-20405e90fc2f
+Oct 31 20:08:44.016 HYPERVISOR: exec_cmd: vm create R2 3 c3600 
+Oct 31 20:08:44.019 VM: VM R2 created.
+Oct 31 20:08:44.021 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5028 
+Oct 31 20:08:44.022 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+Oct 31 20:08:44.023 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Oct 31 20:08:44.024 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 31 20:08:44.024 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60672ce0 
+Oct 31 20:08:44.027 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 20:08:44.029 HYPERVISOR: exec_cmd: c3600 set_mac_addr R2 cc03.3a54.0000 
+Oct 31 20:08:44.030 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Oct 31 20:08:44.031 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Oct 31 20:08:44.032 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 31 20:08:44.032 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 NM-1FE-TX 
+Oct 31 20:08:44.033 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 31 20:08:44.034 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Oct 31 20:08:59.625 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 20:09:02.430 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 20:27:59.391 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 20:28:05.102 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:43:49.405 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:07.678 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:08.768 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:08.944 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:13.416 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:15.194 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Oct 31 22:44:15.405 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/RafaelCobar/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 01 00:04:47.054 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 01 00:04:47.056 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 01 00:13:56.337 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 01 00:13:56.339 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 01 00:13:56.374 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 01 00:13:56.380 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 01 00:13:56.383 HYPERVISOR: exec_cmd: vm delete R2 
+Nov 01 00:13:56.383 VM: VM R2 destroyed.
+Nov 01 00:13:56.389 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 01 00:13:56.440 HYPERVISOR: Stopped.
+Nov 01 00:13:56.440 GENERAL: reset done.
