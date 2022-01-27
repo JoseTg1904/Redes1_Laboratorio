@@ -1,0 +1,4 @@
+Comandos: 
+sudo apt-get update
+sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
+sudo bash openvpn-install.sh
